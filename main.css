@@ -1,0 +1,60 @@
+       *{
+          margin: o;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Roboto', sans-serif;
+        }
+        body{
+          background-color: #fff;
+        }
+        header{
+          width: 100%;
+        }
+        header h1{
+          text-align: center;
+          background-color: #1a237e;
+          color: #fff;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+        button{
+          background: #b71c1c;
+          padding: 10px;
+          border: 0;
+          border-radius: 20px;
+          color: #fff;
+        }
+
+        .container{
+          width: 1100px;
+          margin: auto;
+        }
+        .container .status{
+          margin: auto;
+          width: 600px;
+        }
+        .container .status .battery{
+          padding: 10px;
+          text-align: center;
+        }
+
+        .btnwrapper{
+          text-align: center;
+        }
+
+      @media screen and (max-width: 340px) {
+        .container {
+          width: 280px;
+          padding: 10px;
+        }
+        .status{
+          width: 280px !important;
+          margin: 0;
+        }
+        .battery{
+          text-align: left !important;
+        }
+        button {
+          margin-left: 120px;
+        }
+      }
