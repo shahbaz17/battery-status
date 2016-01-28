@@ -1,6 +1,3 @@
-window.addEventListener("load", function() {
-});
-
 $(document).ready(function() {
   var level = $('.green');
   var red = $('#charging-status');
